@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@100;400;500;700&family=Roboto:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* font-family: 'Roboto', sans-serif; */
+}
+.main-section {
+  background-image: url(./img/hero-bg.jpg);
+  padding: 30px 60px;
+  background-size: cover;
+  min-height: 100vh;
+}
+.container {
+  padding: 30px;
+  /* align-items: center; */
+  text-align: center;
+  height: auto;
+
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.62);
+  margin: auto;
+
+  border-radius: 12px;
+  color: white;
+}
+.main-heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.count-el {
+  font-size: 40px;
+  font-weight: 400;
+
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  max-width: 370px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.btn {
+  text-decoration: none;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  max-width: 150px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.increment-btn {
+  /* border */
+  background-color: green;
+}
+.decrement-btn {
+  /* border */
+  background-color: red;
+}
+.save-btn {
+  /* border */
+  background-color: darkblue;
+}
+.history-el {
+  margin-top: 40px;
+}
